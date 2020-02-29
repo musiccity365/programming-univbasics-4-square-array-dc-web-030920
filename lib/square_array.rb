@@ -3,7 +3,7 @@ def square_array(array)
   new_numbers = []
   counter = 0
   while counter < array.length do
-    new_numbers.push
+    new_numbers.push(array[counter])
     counter+=1
   end
 end
